@@ -1,0 +1,1 @@
+const solution = (my_string) => my_string.split('').filter((find) => !['a', 'e', 'i', 'o', 'u'].includes(find)).join('');
