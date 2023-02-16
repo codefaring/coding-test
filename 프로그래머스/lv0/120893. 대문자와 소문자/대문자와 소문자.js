@@ -1,0 +1,1 @@
+const solution = (my_string) => my_string.split('').map((str) => str === str.toLowerCase() ? str.toUpperCase() : str.toLowerCase()).join('');
